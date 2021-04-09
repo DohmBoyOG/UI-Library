@@ -26,7 +26,7 @@ Credits(text) -- you can choose to add this, this will create a tab where credit
 
 Example:
 
-local lib = local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/AlterRainbow/UILibV7/main/UILibv1.0.lua"))()
+local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/AlterRainbow/UILibV7/main/UILibv1.0.lua"))()
 
 local main = lib:Window("Example")
 
