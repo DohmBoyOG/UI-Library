@@ -8,7 +8,7 @@ Note: I do not log anything.
 
 Usage:
 
-local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/AlterRainbow/UILibV7/main/UILibv1.0.lua"))() -- gets the ui lib
+local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/AlterRainbow/UI-Library/main/UILib.lua"))() -- gets the ui lib
 
 local main = lib:Window(text) -- creates a window with given text.
 local tab = main:Tab(text) -- creates a tab with given text.
@@ -29,7 +29,7 @@ Credits(text) -- you can choose to add this, this will create a tab where credit
 
 Example:
 
-local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/AlterRainbow/UILibV7/main/UILibv1.0.lua"))()
+local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/AlterRainbow/UI-Library/main/UILib.lua"))()
 
 local main = lib:Window("Example")
 
