@@ -24,6 +24,7 @@ local box = tab:Textbox(text, callback) -- creates a textbox and runs given func
 local bind = tab:Keybind(text, default, callback) -- creates a keybind item with given text and 'default' as default keybind and runs given function when the keybind has been pressed.
 
 Settings() -- you can choose to add this, this will create a tab where the you can customize the UI, change the keybind to hide/show the UI and a button to destroy the UI.
+Info() -- you can choose to add this, this will create a tab where you can read some information about the UI etc.
 Credits(text) -- you can choose to add this, this will create a tab where credits are given to me, and another label with custom text you can pass down.
 
 Example:
@@ -66,6 +67,7 @@ game.Players.PlayerRemoving:Connect(function(plr)
 end)
 
 Settings()
+Info()
 Credits("Ok cool tutorial")
 
 -- Notes --
