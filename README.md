@@ -7,7 +7,7 @@ Animations are shit and, I am still improving.
 Note: I do not log anything.
 
 Usage:
-
+```lua
 local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/AlterRainbow/UI-Library/main/UILib.lua"))() -- gets the ui lib
 
 local main = lib:Window(text) -- creates a window with given text.
@@ -26,9 +26,9 @@ local bind = tab:Keybind(text, default, callback) -- creates a keybind item with
 Settings() -- you can choose to add this, this will create a tab where the you can customize the UI, change the keybind to hide/show the UI and a button to destroy the UI.
 Info() -- you can choose to add this, this will create a tab where you can read some information about the UI etc.
 Credits(text) -- you can choose to add this, this will create a tab where credits are given to me, and another label with custom text you can pass down.
-
+```
 Example:
-
+```lua
 local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/AlterRainbow/UI-Library/main/UILib.lua"))()
 
 local main = lib:Window("Example")
@@ -69,7 +69,7 @@ end)
 Settings()
 Info()
 Credits("Ok cool tutorial")
-
+```
 -- Notes --
 
 Please remember to use the roblox KeyCodes for default keybinds, in other words, don't pass 'Right SHIFt' as default bind. Insead pass: "RightShift".
