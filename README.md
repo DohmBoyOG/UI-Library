@@ -72,7 +72,7 @@ Credits("Ok cool tutorial")
 ```
 -- Notes --
 
-Please remember to use the roblox KeyCodes for default keybinds, in other words, don't pass 'Right SHIFt' as default bind. Insead pass: "RightShift".
+Please remember to use the roblox KeyCodes for default keybinds, in other words, don't pass 'Right SHIFt' as default bind. Instead pass: "RightShift".
 Dropdowns will add items with their text being the index if the table is a dictionary or the items will have their text set to the values if the table is an array.
 
 Send me bugs etc.
