@@ -4,8 +4,6 @@ Color picker sliders and hex input do not work (still looking for a way to fix t
 
 Animations are shit and, I am still improving.
 
-Note: I do not log anything.
-
 Usage:
 ```lua
 local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/AlterRainbow/UI-Library/main/UILib.lua"))() -- gets the ui lib
@@ -74,5 +72,7 @@ Credits("Ok cool tutorial")
 
 Please remember to use the roblox KeyCodes for default keybinds, in other words, don't pass 'Right SHIFt' as default bind. Instead pass: "RightShift".
 Dropdowns will add items with their text being the index if the table is a dictionary or the items will have their text set to the values if the table is an array.
+
+I do not log your IP, HWID or anything else. I might start counting executions one day. However I will tell you guys when that happens.
 
 Send me bugs etc.
