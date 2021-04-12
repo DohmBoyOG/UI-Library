@@ -12,6 +12,7 @@ local drop = tab:Dropdown(text, {}, callback) -- creates a dropdown with given t
 local item = drop:Item(text, value) -- creates an item in the dropdown with given text to display in the dropdown and a value that will be passed down when the dropdown's function is called. The passed text argument will also be the one to use as a way to identify between items so you can delete that item when needed.
 drop:ItemRemove(text) -- Will remove an item from the dropdown that has the passed argument as text to display in the dropdown.
 local lbl = tab:Label(text) -- creates a label with given text.
+local edit = lbl:Edit("Hi") -- Will edit a text label and replace it with the given text.
 local clr = tab:Color(text, callback) -- creates a color picker (THE TWO SLIDERS AND THE HEX INPUT DO NOT WORK ATM, THE RGB INPUT DOES) that runs the given function when the confirm button has been clicked.
 local box = tab:Textbox(text, callback) -- creates a textbox and runs given function.
 local bind = tab:Keybind(text, default, callback) -- creates a keybind item with given text and 'default' as default keybind and runs given function when the keybind has been pressed.
@@ -35,7 +36,9 @@ local slid = tab:Slider("rate example:", 7, 10, 8, function(nmbr) print("This ex
 local tggle = tab:Toggle("print state", function(state) print(state) end)
 local drop = tab:Dropdown("dilemma:", {"kill yourself", "kill your mom", "kill your dad"}, function(chosen) print("You chose to "..chosen..".") end)
 
-local lbl = tabb:Label("Hi there, rate this UI")
+local lbl = tabb:Label("Hi there, the rest will load in 5 seconds.")
+wait(5)
+lbl:Edit("Loaded!)
 local clr = tabb:Color("baseplate color", function(reddd, greennn, blueee) game.workspace.Baseplate.Color = Color3.fromRGB(reddd, greennn, blueee) end)
 local box = tabb:Textbox("print input", function(input) print(input) end)
 local bind = tabb:Keybind("change walkspeed to 100", "RightShift", function() game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100 end)
