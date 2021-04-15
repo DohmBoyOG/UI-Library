@@ -38,7 +38,7 @@ local drop = tab:Dropdown("dilemma:", {"kill yourself", "kill your mom", "kill y
 
 local lbl = tabb:Label("Hi there, the rest will load in 5 seconds.")
 wait(5)
-lbl:Edit("Loaded!)
+lbl:Edit("Loaded!")
 local clr = tabb:Color("baseplate color", function(reddd, greennn, blueee) game.workspace.Baseplate.Color = Color3.fromRGB(reddd, greennn, blueee) end)
 local box = tabb:Textbox("print input", function(input) print(input) end)
 local bind = tabb:Keybind("change walkspeed to 100", "RightShift", function() game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100 end)
